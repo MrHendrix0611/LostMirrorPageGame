@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1C1C1C;
+    color: #FFFFF0;
+}
+header {
+    background-color: #000000;
+    color: #FFFFF0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.0rem 2rem;
+}
+
+header .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    color: #B22222;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+nav ul li a:hover{
+    color: #8B0000;
+}
+
+.hero {
+    text-align: center;
+    background-color: #141414;
+    padding: 50px 20px;
+    background-image: url('background-placeholder.jpg'); /* Adicione um fundo do jogo */
+    background-size: cover;
+    background-position: center;
+}
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.hero button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #FFFFF0;
+    background-color: #8B0000;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.hero button:hover {
+    background-color: #B22222;
+}
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.section h2 {
+    color: #B22222;
+    margin-bottom: 20px;
+}
+.features, .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.features div, .gallery img {
+    background-color: #1C1C1C;
+    border: 1px solid #8B0000;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    color: #FFFFF0;
+}
+.gallery img {
+    max-width: 300px;
+    height: auto;
+}
+
+#about{
+    background-color: #141414;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#features{
+    margin-top: -80px;
+}
+
+#features, .features div{
+    background-color: #141414;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFF0;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    color: #B22222;
+    text-decoration: none;
+    margin: 0 10px;
+}
